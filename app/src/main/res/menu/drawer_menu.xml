@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_NewGame"
+        android:icon="@drawable/newg"
+        android:title="@string/NewGame" />
+    <item
+        android:id="@+id/EditBoard"
+        android:icon="@drawable/edit"
+        android:title="@string/EditBoard" />
+    <item
+        android:id="@+id/FlipBoard"
+        android:icon="@drawable/flip"
+        android:title="@string/FlipBoard" />
+    <item
+        android:id="@+id/Analyze"
+        android:icon="@drawable/settings"
+        android:title="@string/Analyze" />
+    <item
+        android:id="@+id/GeneratePositions"
+        android:icon="@drawable/resign"
+        android:title="@string/GeneratePositions" />
+</group>
+</menu>
